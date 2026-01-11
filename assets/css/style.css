@@ -13,7 +13,12 @@ main {
   flex: 1 0 auto;
 }
 .logo {
-  width: 80px;
+  width: 60px;
+  border-radius: 50px;
+}
+/* navbar-footer */
+.footer-navbar {
+    background: linear-gradient(to right, #e4fa72, #fffb05, #fcc621);
 }
 /* Navbar */
 .navbar {
@@ -21,7 +26,6 @@ main {
   width: 100vw;
   top: 0;
   z-index: 99;
-  background: linear-gradient(to right, #e4fa72, #fffb05, #fcc621);
 }
 .navbar a {
   font-size: 1.3rem;
@@ -33,13 +37,13 @@ main {
 .active {
   /* text-decoration: underline;
   text-decoration-color: #7fbf3f; */
-  background-color: #7fbf3f;
+  background-color: #e7eb31;
   border-radius: 20px;
+  box-shadow: -3px -3px 5px #7fbf3f;
 }
 
 /* footer */
 .footer-section {
-  background: linear-gradient(to right, #e4fa72, #fffb05, #fcc621);
   display: flex;
   flex-direction: column;
   justify-content: center;
