@@ -41,6 +41,11 @@ main {
   border-radius: 20px;
   box-shadow: -3px -3px 5px #7fbf3f;
 }
+/* Main */r
+body {
+  background: url("assets/images/background-yellow-roses.jpg") no-repeat center/cover;
+  background-color: transparent;
+}
 
 /* footer */
 .footer-section {
