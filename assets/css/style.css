@@ -46,7 +46,9 @@ body {
   background: url("assets/images/background-yellow-roses.jpg") no-repeat center/cover;
   background-color: transparent;
 }
-
+.main-content {
+  margin-top: 86px;
+}
 /* footer */
 .footer-section {
   display: flex;
