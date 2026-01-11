@@ -15,12 +15,13 @@ main {
 .logo {
   width: 80px;
 }
+/* Navbar */
 .navbar {
   position: fixed;
   width: 100vw;
   top: 0;
   z-index: 99;
-  background: linear-gradient(to right, #f5e81a, #89e502);
+  background: linear-gradient(to right, #e4fa72, #fffb05, #fcc621);
 }
 .navbar a {
   font-size: 1.3rem;
@@ -30,13 +31,15 @@ main {
   color: #ffffff;
 }
 .active {
-  text-decoration: underline;
-  text-decoration-color: #7fbf3f;
+  /* text-decoration: underline;
+  text-decoration-color: #7fbf3f; */
+  background-color: #7fbf3f;
+  border-radius: 20px;
 }
 
 /* footer */
 .footer-section {
-  background: linear-gradient(to right, #f5e81a, #89e502);
+  background: linear-gradient(to right, #e4fa72, #fffb05, #fcc621);
   display: flex;
   flex-direction: column;
   justify-content: center;
