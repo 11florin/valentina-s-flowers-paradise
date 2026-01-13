@@ -1,3 +1,6 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,14 +14,16 @@ body {
 }
 main {
   flex: 1 0 auto;
+  margin-top: 86px;
 }
+
 .logo {
   width: 60px;
   border-radius: 50px;
 }
 /* navbar-footer */
 .footer-navbar {
-    background: linear-gradient(to right, #e4fa72, #fffb05, #fcc621);
+  background: linear-gradient(to right, #e4fa72, #fffb05, #fcc621);
 }
 /* Navbar */
 .navbar {
@@ -35,20 +40,61 @@ main {
   color: #ffffff;
 }
 .active {
-  /* text-decoration: underline;
-  text-decoration-color: #7fbf3f; */
   background-color: #e7eb31;
   border-radius: 20px;
   box-shadow: -3px -3px 5px #7fbf3f;
 }
-/* Main */r
-body {
-  background: url("assets/images/background-yellow-roses.jpg") no-repeat center/cover;
-  background-color: transparent;
+/* Main */
+#hero {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/roses.jpg") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-.main-content {
-  margin-top: 86px;
+.hero-content h1,
+.hero-content p {
+  font-family: "Alex Brush", sans-serif;
 }
+.hero-content h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 700;
+  padding: 20px 20px;
+}
+.hero-content p {
+  font-size: 1.4rem;
+  color: #f8f8f8;
+  font-weight: 300;
+}
+.hero-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+}
+.hero-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.hero-content {
+  animation: fade-in 2s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
 /* footer */
 .footer-section {
   display: flex;
@@ -75,6 +121,17 @@ body {
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
+  /* hero section */
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  .hero-content p {
+    font-size: 1.6rem;
+  }
+  .hero-btn {
+    margin-top: 70px;
+  }
+  /* Footer */
   .footer-section {
     display: flex;
     flex-direction: row;
@@ -98,3 +155,8 @@ body {
     vertical-align: middle;
   }
 }
+@media (max-width: 768px) {
+  
+  
+}
+

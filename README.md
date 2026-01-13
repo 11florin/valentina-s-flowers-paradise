@@ -76,6 +76,6 @@ The website was deployed using GitHub Pages:
 ## 9. Credits
 
 * Images sourced from free stock websites.
-1. [Background yellow roses](https://unsplash.com/photos/a-bouquet-of-yellow-roses-and-purple-irises-kVtZVRbkUqs)
+1. [Hero section yellow roses](https://unsplash.com/photos/shallow-focus-photography-of-yellow-flowers-67duUrW5VaM)
 * Inspired by Valentina’s love for flowers.
 * Created as part of Code Institute’s Milestone Project 1.
