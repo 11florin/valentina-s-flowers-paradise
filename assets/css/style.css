@@ -53,6 +53,19 @@ main {
   justify-content: center;
   text-align: center;
 }
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fade-in 2s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
 .hero-content h1,
 .hero-content p {
   font-family: "Alex Brush", sans-serif;
@@ -84,16 +97,7 @@ main {
   background: rgba(255, 255, 255, 0.4);
 }
 
-.hero-content {
-  animation: fade-in 2s ease-in-out forwards;
-  opacity: 0;
-}
 
-@keyframes fade-in {
-  to {
-    opacity: 1;
-  }
-}
 
 /* footer */
 .footer-section {
@@ -129,7 +133,7 @@ main {
     font-size: 1.6rem;
   }
   .hero-btn {
-    margin-top: 70px;
+    margin-top: 40px;
   }
   /* Footer */
   .footer-section {
@@ -155,8 +159,5 @@ main {
     vertical-align: middle;
   }
 }
-@media (max-width: 768px) {
-  
-  
-}
+
 
