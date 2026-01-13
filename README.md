@@ -77,5 +77,9 @@ The website was deployed using GitHub Pages:
 
 * Images sourced from free stock websites.
 1. [Hero section yellow roses](https://unsplash.com/photos/shallow-focus-photography-of-yellow-flowers-67duUrW5VaM)
+2. [Card 1 Bouquets](https://unsplash.com/photos/a-bouquet-of-colorful-flowers-in-a-vase-a-LAn7A8DX0)
+3. [Card 2 Roses](https://unsplash.com/photos/a-large-bouquet-of-pink-and-orange-roses-RRlRrvSzhx4)
+3. [Card 3 seasonal](https://unsplash.com/photos/yellow-and-red-tulips-in-bloom-during-daytime-GOTiTRzbIfE)
+4. [Card 4 gifts](https://unsplash.com/photos/a-bouquet-of-flowers-sitting-on-top-of-a-table-RUj802f-1ho)
 * Inspired by Valentina’s love for flowers.
 * Created as part of Code Institute’s Milestone Project 1.
