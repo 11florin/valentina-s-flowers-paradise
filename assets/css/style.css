@@ -21,11 +21,11 @@ h1 {
 /* main */
 main {
   flex: 1 0 auto;
-  margin-top: 86px;
+  margin-top: 66px;
 }
 
 .logo {
-  width: 60px;
+  width: 40px;
   border-radius: 50px;
 }
 /* navbar-footer */
@@ -40,7 +40,7 @@ main {
   z-index: 99;
 }
 .navbar a {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #2f2f2f;
 }
 .navbar a:hover {
@@ -151,7 +151,7 @@ main {
 }
 .footer a {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #2f2f2f;
 }
 .footer a:hover {
@@ -162,7 +162,7 @@ main {
   list-style: none;
 }
 .social-networks i {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #2f2f2f;
 }
 
