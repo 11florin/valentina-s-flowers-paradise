@@ -95,8 +95,9 @@ The website was deployed using GitHub Pages:
 15. [gallery seasonal img3](https://unsplash.com/photos/close-up-of-vibrant-orange-primrose-flowers-FH3gfBbykrM)
 16. [gallery seasonal img4](https://unsplash.com/photos/close-up-of-vibrant-red-primrose-flowers-with-yellow-centers-kHG3PjPMKKE)
 17. [gallery gift img1](https://unsplash.com/photos/a-bouquet-of-flowers-and-fruit-on-a-table-SSHSkYqSrhY)
-18. [gallery gift img2](https://unsplash.com/photos/a-table-topped-with-lots-of-white-flowers-and-wrapped-presents-O5eF0C2XhHQ)
+18. [gallery gift img2](https://unsplash.com/photos/vibrant-flowers-arranged-in-a-small-glass-vase-SBhedM98XEs)
 19. [gallery gift img3](https://unsplash.com/photos/a-bouquet-of-red-roses-with-one-white-rose-K8XS3UMU_4o)
 20. [gallery gift img4](https://unsplash.com/photos/a-painting-of-a-flower-KzVqkzOiBB4)
+21. [contact section img](https://unsplash.com/photos/assorted-flowers-eHlVZcSrjfg)
 * Inspired by Valentina’s love for flowers.
 * Created as part of Code Institute’s Milestone Project 1.
