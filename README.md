@@ -81,5 +81,6 @@ The website was deployed using GitHub Pages:
 3. [Card 2 Roses](https://unsplash.com/photos/a-large-bouquet-of-pink-and-orange-roses-RRlRrvSzhx4)
 3. [Card 3 seasonal](https://unsplash.com/photos/yellow-and-red-tulips-in-bloom-during-daytime-GOTiTRzbIfE)
 4. [Card 4 gifts](https://unsplash.com/photos/a-bouquet-of-flowers-sitting-on-top-of-a-table-RUj802f-1ho)
+5. [about-section AI generated picturre](https://chatgpt.com/s/m_6968e97c8f98819198c6789fbfb6a92a)
 * Inspired by Valentina’s love for flowers.
 * Created as part of Code Institute’s Milestone Project 1.

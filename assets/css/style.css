@@ -107,8 +107,7 @@ main {
 /* Featured Category Section */
 .container-section h1 {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 .container-card {
   display: flex;
@@ -141,6 +140,40 @@ main {
   transform: scale(1.03);
   transition: 0.3s ease;
   box-shadow: 8px 8px 15px #e7eb31;
+}
+
+/* About section */
+#about-section h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+.container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about {
+  font-family: "Alex Brush", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #f4f76b;
+  border-radius: 30px 0 30px 0;
+}
+.about-img {
+  background-color: white;
+  border-radius: 0 40px;
+  margin: 10px;
+  padding: 10px;
+}
+.about-img figcaption {
+  font-family: "Emilys Candy", sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+.about-img img {
+  width: 100%;
+  height: 240px;
 }
 /* footer */
 .footer-section {
@@ -178,7 +211,7 @@ main {
   .hero-btn {
     margin-top: 40px;
   }
-  /* eatured Category Section */
+  /* Featured Category Section */
   .container-card {
     display: flex;
     flex-direction: row;
@@ -189,6 +222,21 @@ main {
   .card {
     flex: 0 1 45%;
     max-width: 45%;
+  }
+  /* About section */
+  .container-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .about,
+  .about-img {
+    flex: 1;
+    max-width: 50%;
+  }
+  .about {
+    font-size: 1.2rem;
   }
   /* Footer */
   .footer-section {
@@ -227,6 +275,24 @@ main {
     flex: 0 1 30%;
     max-width: 30%;
   }
+   /* About section */
+  .container-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    flex: 0 1 65%;
+    max-width: 65%;
+  }
+   .about-img {
+    flex: 0 1 35%;
+    max-width: 35%;
+   }
+   .about {
+    font-size: 1.4rem;
+  }
 }
 /* Media query 1440px */
 @media screen and (min-width: 1300px) {
@@ -240,5 +306,25 @@ main {
   .card {
     flex: 0 1 22%;
     max-width: 22%;
+  }
+  /* About section */
+  .container-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    flex: 0 1 80%;
+    max-width:80%;
+    margin-right: 30px; 
+  }
+   .about-img {
+    flex: 0 1 20%;
+    max-width: 20%;
+    margin-right: 40px
+   }
+   .about {
+    font-size: 1.6rem;
   }
 }
