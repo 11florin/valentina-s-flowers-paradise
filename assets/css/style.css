@@ -264,6 +264,25 @@ main {
   width: 100%;
   height: 200px;
 }
+.img-card figcaption,
+.img-card p {
+  font-family: "Emilys Candy", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.add-to-cart button {
+  margin-left: 10px;
+  background-color: #999696;
+  color: white;
+  border: 1px solid rgb(54, 52, 52);
+  padding: 5px;
+}
+.add-to-cart button:hover {
+  background-color: #e4fa72;
+  color: rgb(54, 52, 52);
+  box-shadow: 4px 4px 10px yellowgreen;
+}
 /* Media Queries */
 @media screen and (min-width: 768px) {
   /* hero section */
@@ -309,6 +328,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
   }
+
   /* Footer */
   .footer-section {
     display: flex;
@@ -342,8 +362,8 @@ main {
     gap: 20px;
   }
   .img-card {
-    flex: 0 1 45%;
-    max-width: 45%;;
+    flex: 0 1 30%;
+    max-width: 30%;
   }
   .img-card img {
     width: 100%;
@@ -392,6 +412,22 @@ main {
     max-width: 65%;
     margin-right: 10px;
   }
+   /* Gallery page */
+  .gallery-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .img-card {
+    flex: 0 1 20%;
+    max-width: 20%;
+  }
+  .img-card img {
+    width: 100%;
+    height: 200px;
+  }
 }
 /* Media query 1440px */
 @media screen and (min-width: 1300px) {
@@ -430,5 +466,21 @@ main {
   /* Contact button */
   .contact-us-button {
     margin-right: 30px;
+  }
+  /* Gallery page */
+  .gallery-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .img-card {
+    flex: 0 1 13%;
+    max-width: 13%;
+  }
+  .img-card img {
+    width: 100%;
+    height: 200px;
   }
 }
