@@ -474,6 +474,19 @@ main {
     width: 100%;
     height: 200px;
   }
+  /* our mission */
+  .our-mission-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px
+    
+  }
+  .our-mission-card {
+    flex: 0 1 45%;
+    max-width: 45%;
+  }
 }
 /* Media query 1024px */
 @media screen and (min-width: 1024px) {
@@ -558,6 +571,9 @@ main {
     flex: 0 1 300px;
     max-width: 300px;
     height: 200px;
+  }
+  .scroll-box p {
+    font-size: 1.5rem;
   }
 }
 /* Media query 1440px */
