@@ -320,8 +320,6 @@ main {
   margin-top: 0;
   display: flex;
   flex-direction: row;
-  /* gap: 2rem;
-  padding: 2rem; */
 }
 .aside-left,
 .aside-right {
@@ -329,7 +327,7 @@ main {
   background: url("../images/about-section2.png") no-repeat center/cover;
 }
 .about-content {
-  flex: 1;
+  flex: 2;
   padding: 1rem;
 }
 .scroll-box {
@@ -348,7 +346,7 @@ main {
   color: #4b3f2f;
 }
 .our-story-img img {
-  height: 100px;
+  height: 200px;
   width: 100%;
   margin-top: 20px;
   border-radius: 10px;
@@ -370,6 +368,24 @@ main {
   box-shadow: -5px -5px 10px #e7eb31;
 }
 
+/* What you will find here */
+.find-here {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.find-here p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Emilys Candy", sans-serif;
+}
+.find-here-list {
+  border-radius: 20px 0 20px 0;
+}
+.find-here-list li {
+  font-family: "Emilys Candy", sans-serif;
+  font-size: 1.1rem;
+  list-style-type: circle;
+}
 /* Media Queries */
 @media screen and (min-width: 768px) {
   /* hero section */
@@ -473,6 +489,13 @@ main {
     width: 100%;
     height: 200px;
   }
+  /* About page */
+  .text-hero-about h1 {
+    font-size: 3rem;
+  }
+  .text-hero-about p {
+    font-size: 1.6rem;
+  }
   /* our mission */
   .our-mission-container {
     display: flex;
@@ -485,6 +508,31 @@ main {
     flex: 0 1 45%;
     max-width: 45%;
   }
+  .our-mission p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  /* What You Will Find Here */
+
+  .find-here-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  .find-here-list {
+    flex: 0.1 45%;
+    max-width: 45%;
+  }
+
+  .find-here-list li {
+    font-size: 1.4rem;
+  }
+  .find-here p {
+    font-size: 1.4rem;
+  }
+
 }
 /* Media query 1024px */
 @media screen and (min-width: 1024px) {
