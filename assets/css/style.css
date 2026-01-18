@@ -353,6 +353,23 @@ main {
   margin-top: 20px;
   border-radius: 10px;
 }
+.how-it-all-began-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* our mission */
+.our-mission p {
+  font-family: "Emilys Candy", sans-serif;
+  font-size: 1.1rem;
+}
+.our-mission-card {
+  border: 2px solid #fcc621;
+  padding: 4px;
+  margin-bottom: 10px;
+  box-shadow: -5px -5px 10px #e7eb31;
+  
+}
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
