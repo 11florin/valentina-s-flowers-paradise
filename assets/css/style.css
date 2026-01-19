@@ -386,6 +386,33 @@ main {
   font-size: 1.1rem;
   list-style-type: circle;
 }
+
+/* About Valentina - Creator */
+.about-valentina-creator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-valentina-container h2,
+.about-creator-container h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-valentina-text,
+.about-creator-text {
+  background-color: white;
+  padding: 10px;
+  /* box-shadow: inset -5px -5px 10px; */
+  box-shadow:
+    inset 3px 3px 8px rgba(0, 0, 0, 0.3),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.7);
+}
+.about-valentina-text p,
+.about-creator-text p {
+  font-family: "Emilys Candy", sans-serif;
+  font-size: 1.1rem;
+}
 /* Media Queries */
 @media screen and (min-width: 768px) {
   /* hero section */
@@ -512,7 +539,6 @@ main {
     font-size: 1.4rem;
     margin-bottom: 20px;
   }
-
   /* What You Will Find Here */
 
   .find-here-container {
@@ -532,7 +558,11 @@ main {
   .find-here p {
     font-size: 1.4rem;
   }
-
+   /* about valentina - creator */
+  .about-valentina-text p,
+  .about-creator-text p {
+    font-size: 1.4rem;
+  }
 }
 /* Media query 1024px */
 @media screen and (min-width: 1024px) {
@@ -619,6 +649,11 @@ main {
     height: 200px;
   }
   .scroll-box p {
+    font-size: 1.5rem;
+  }
+  /* about valentina - creator */
+  .about-valentina-text p,
+  .about-creator-text p {
     font-size: 1.5rem;
   }
 }
