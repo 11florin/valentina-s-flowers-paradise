@@ -407,7 +407,7 @@ main {
   overflow: auto;
   cursor: text;
   font-family: "Alex Brush", sans-serif;
-  font-family: 1rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.1rem;
   color: #4b3f2f;
