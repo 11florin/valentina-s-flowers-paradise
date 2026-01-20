@@ -100,6 +100,5 @@ The website was deployed using GitHub Pages:
 20. [gallery gift img4](https://unsplash.com/photos/a-painting-of-a-flower-KzVqkzOiBB4)
 21. [contact section img](https://unsplash.com/photos/assorted-flowers-eHlVZcSrjfg)
 22. [corner-right-contact](https://www.freepik.com/free-vector/watercolor-corner-bouquet-peach-rose-yellow-blooms_418707893.htm#fromView=keyword&page=1&position=6&uuid=c0d08578-f584-4a7a-bb3f-b19ff2b8c09b&query=Floral+watercolor+png)
-23. [corner-bottom-left](https://www.freepik.com/free-vector/pastel-watercolor-roses-greenery-bouquet-illustration_418813516.htm#fromView=image_search_similar&page=3&position=23&uuid=3b0014f3-fd3d-416b-85db-a3c4fb6d22c2&query=Floral+watercolor+png)
 * Inspired by Valentina’s love for flowers.
 * Created as part of Code Institute’s Milestone Project 1.
