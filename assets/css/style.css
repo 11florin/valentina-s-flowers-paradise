@@ -570,7 +570,7 @@ label {
 }
 
 /* Success page */
-.container-success {
+.success {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -586,20 +586,21 @@ label {
   font-size: 1.2rem;
   text-align: center;
 }
-.success button {
+.success a {
   background-color: yellowgreen;
   border-radius: 20px;
   padding: 10px;
-  margin: 0 10px 20px;
-  box-shadow: 5px 5px 10px rgb(114, 110, 110);
+  margin-bottom: 60px;
+  box-shadow: -5px -5px 10px rgb(255, 251, 3);
 }
 .btn-success {
   text-decoration: none;
   color: rgb(20, 17, 17);
   font-family: "Emilys Candy", sans-serif;
+  font-size: 1.1rem;
 }
 .btn-success:hover {
-  background-color: rgba(124, 124, 124, 0.5);
+  background-color: rgb(255, 251, 0);
   box-shadow: inset 3px 3px 10px;
 }
 
@@ -754,6 +755,16 @@ label {
   .contact-container {
     flex-direction: column;
     padding: 20px;
+  }
+  /* success page */
+  .success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn-success {
+    display: inline-block;
+    margin: 0 auto
   }
 }
 /* Media query 1024px */
