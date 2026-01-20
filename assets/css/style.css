@@ -238,9 +238,9 @@ main {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
 
 /* Address + Contact */
@@ -249,10 +249,14 @@ main {
   min-width: 250px;
 }
 
-.footer-address h2,
-.footer-address h3 {
+.footer-address h2 {
+  text-align: center;
   margin-bottom: 10px;
   font-size: 1.6rem;
+}
+.footer-address h3 {
+  margin-bottom: 10px;
+  font-size: 1.4em;
 }
 
 .footer-address address,
@@ -269,6 +273,7 @@ main {
 }
 
 .social-networks li {
+  display: inline;
   margin-bottom: 10px;
 }
 
@@ -284,6 +289,7 @@ main {
 
 /* Opening Hours */
 .footer-hours {
+  text-align: center;
   flex: 1;
   min-width: 250px;
 }
