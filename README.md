@@ -3,13 +3,14 @@
 ## 1. Project Overview
 
 Valentina’s Flowers Paradise is a simple, responsive static website inspired by my wife Valentina’s love for flowers.
-The project includes a homepage, a gallery, an about page, and a contact page.
-The design focuses on clarity, accessibility, and ease of navigation across all devices.
+The site consists of a homepage, a gallery, an about page, a contact page, and a success page displayed after form submission.
+The design focuses on clarity, gentle floral aesthetics, and ease of navigation across mobile, tablet, and desktop devices
 
 ## 2. Purpose of the Project
 
-The purpose of this project is to create a clean, user‑friendly website using HTML, CSS, and Bootstrap.
-The site showcases floral imagery, essential information, and a well‑structured layout suitable for beginners in web development.
+The purpose of this project is to build a clean, user‑friendly static website using HTML5, CSS3, and Bootstrap 5.
+It is created as part of Code Institute’s Milestone Project 1, demonstrating fundamental front‑end skills, semantic structure, responsive design, and basic UX considerations.
+The site showcases floral imagery, essential information, and a clear layout that is easy to understand and navigate.
 
 ## 3. User Stories
 
@@ -34,38 +35,115 @@ The site showcases floral imagery, essential information, and a well‑structure
 
 ## 3. Features
 
-* Responsive navigation bar
-* Hero section with title and subtitle
-* Image gallery
-* About section
-* Contact page
-* Fixed navigation bar (CSS only)
-* Favicon in multiple sizes
+### Responsive navigation bar
+* Collapses into a hamburger menu on smaller screens.
+Provides links to Home, Gallery, About, and Contact.
+
+
+### Hero section with title and subtitle
+
+* Prominent title and subtitle introducing Valentina’s Flowers Paradise.
+* Floral imagery to set the tone of the site.
+
+
+### Image gallery
+* Organised into categories such as bouquets, roses, seasonal flowers, and gifts.
+* Images resize appropriately on different screen sizes.
+
+### About section
+
+* Brief description of the inspiration behind the site.
+* Personal connection to Valentina’s passion for flowers.
+
+### Contact page
+* Simple contact form for users to get in touch.
+* On successful submission, users are redirected to a success page.
+
+### Success page
+
+* Confirms that the form has been submitted successfully.
+* Provides a clear link back to the homepage.
+
+### Fixed navigation bar (CSS only)
+* The navigation bar remains visible at the top of the page while scrolling.
+
+### Favicon
+* Favicon provided in multiple sizes for better browser and device support.
 
 ### Future Features
 
-* Scroll‑to‑top button
-* Search bar
-* Online ordering system
+1. Scroll‑to‑top button
+* Allow users to quickly return to the top of the page.
+2. Search bar
+* nable users to search for specific content or categories.
+3. Online ordering system
+* Allow users to place orders for bouquets and floral arrangements (would require backend integration).
 
-## 5. Technologies Used
+## 5. Features by Page
 
-* HTML5
-* CSS3
-* Bootstrap 5
-* GitHub Pages for deployment
+### Home Page
+* Hero section with title, subtitle, and floral imagery.
+* Introduction to the site and its purpose.
+* Clear call‑to‑action links to other sections/pages
 
-## 6. Wireframes
+### Gallery Page
+* Categorised image sections (e.g., bouquets, roses, seasonal, gifts)
+* Responsive grid layout for images
+* Consistent spacing and alignment for a clean visual experience.
+
+### About Page
+* Short narrative about the inspiration behind the project.
+* Personal reference to Valentina and her love for flowers.
+* Reinforces the theme and emotional tone of the site.
+
+### ontact Page
+* Contact form with input fields for user details and message.
+* Simple, accessible layout suitable for all devices.
+* Submits to a success page for confirmation.
+
+### Success Page
+* Confirmation message after form submission
+* Button/link to return to the homepage.
 
 
+## 6. Design Choices
 
-## 7. Testing
+### Colour palette
+* Soft, floral tones to reflect the theme of flowers and warmth.
+* Darker text colours used where necessary to maintain readability and contrast.
 
-* The website was tested on mobile, tablet, and desktop devices.
-* All navigation links work correctly.
-* The fixed navigation bar functions on all pages.
-* Images resize correctly on different screen sizes.
-* HTML and CSS were validated using W3C validators.
+### Typography
+* Clean, readable fonts chosen for both headings and body text.
+* Larger headings to create clear hierarchy and structure.
+
+### Layout and spacing
+* Generous padding and margins to keep sections visually separated and easy to scan.
+* Consistent use of Bootstrap grid and utility classes for alignment and responsiveness.
+
+
+## 7. Accessibility
+* Semantic HTML used where possible to structure content meaningfully.
+* Responsive design ensures the site is usable on a range of devices and screen sizes.
+* Colour contrast checked using tools such as WebAIM Contrast Checker, with adjustments made where needed to improve readability
+* Clear navigation with consistent menu items across all pages.
+* Descriptive text and headings to help users understand the content quickly.
+
+## Testing
+
+The website was tested on multiple devices and screen sizes, including mobile, tablet, and desktop
+
+### Manual Testing
+
+* All navigation links were clicked to ensure they lead to the correct pages.
+* The sticky navigation bar was checked on each page to confirm it remains visible while scrolling.
+* The contact form was tested to ensure it redirects to the success page after submission.
+* Images were checked to confirm they resize correctly on different screen sizes.
+* The layout was reviewed on various viewport widths to ensure no overlapping or broken elements.
+
+## Validation
+
+* HTML was validated using the W3C HTML Validator.
+* CSS was validated using the W3C CSS Validator.
 
 ## 8. Deployment
 
@@ -103,5 +181,11 @@ The website was deployed using GitHub Pages:
 20. [gallery gift img4](https://unsplash.com/photos/a-painting-of-a-flower-KzVqkzOiBB4)
 21. [contact section img](https://unsplash.com/photos/assorted-flowers-eHlVZcSrjfg)
 22. [corner-right-contact](https://www.freepik.com/free-vector/watercolor-corner-bouquet-peach-rose-yellow-blooms_418707893.htm#fromView=keyword&page=1&position=6&uuid=c0d08578-f584-4a7a-bb3f-b19ff2b8c09b&query=Floral+watercolor+png)
+* Hero section (yellow roses)
+* Bouquets, roses, seasonal flowers, and gifts (gallery images)
+* About section image (AI‑generated picture)
+
+### Inspiration
+
 * Inspired by Valentina’s love for flowers.
-* Created as part of Code Institute’s Milestone Project 1.
+* Developed as part of Code Institute’s Milestone Project 1.
