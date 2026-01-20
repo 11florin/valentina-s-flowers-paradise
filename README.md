@@ -2,11 +2,14 @@
 
 ## 1. Project Overview
 
-Valentina’s Flowers Paradise is a simple, responsive website inspired by my wife Valentina’s passion for flowers. The site includes a homepage, a gallery, an about page, and a contact page. It is designed to be easy to navigate and accessible on all devices.
+Valentina’s Flowers Paradise is a simple, responsive static website inspired by my wife Valentina’s love for flowers.
+The project includes a homepage, a gallery, an about page, and a contact page.
+The design focuses on clarity, accessibility, and ease of navigation across all devices.
 
 ## 2. Purpose of the Project
 
-The aim of this project is to build a clean and user‑friendly static website using HTML, CSS and Bootstrap. The site presents floral images, basic information, and a clear layout.
+The purpose of this project is to create a clean, user‑friendly website using HTML, CSS, and Bootstrap.
+The site showcases floral imagery, essential information, and a well‑structured layout suitable for beginners in web development.
 
 ## 3. User Stories
 
@@ -36,7 +39,7 @@ The aim of this project is to build a clean and user‑friendly static website u
 * Image gallery
 * About section
 * Contact page
-* Sticky navigation bar (CSS only)
+* Fixed navigation bar (CSS only)
 * Favicon in multiple sizes
 
 ### Future Features
@@ -60,7 +63,7 @@ The aim of this project is to build a clean and user‑friendly static website u
 
 * The website was tested on mobile, tablet, and desktop devices.
 * All navigation links work correctly.
-* The sticky navigation bar functions on all pages.
+* The fixed navigation bar functions on all pages.
 * Images resize correctly on different screen sizes.
 * HTML and CSS were validated using W3C validators.
 
