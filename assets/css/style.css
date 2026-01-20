@@ -229,45 +229,83 @@ main {
 
 /* footer */
 .footer-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background: linear-gradient(to right, #e4fa72, #fffb05, #fcc621);
+  padding: 40px 20px;
+  font-family: "Emilys Candy", sans-serif;
+  color: #4b2e2e;
 }
-.footer-address h3,
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Address + Contact */
+.footer-address {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-address h2,
+.footer-address h3 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
 .footer-address address,
 .footer-address p {
-  font-family: "Emilys Candy", sans-serif;
-  font-size: 1.1rem;
-}
-.footer-address h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
-
-.footer-text p {
-  font-family: "Emilys Candy", sans-serif;
-  font-size: 1.1rem;
-}
-.footer-section h2 {
-  text-align: center;
-  margin-top: 20px;
-}
-.footer a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  color: #2f2f2f;
-}
-.footer a:hover {
-  color: #fff;
-}
-.footer ul,
+/* Social Icons */
 .social-networks ul {
   list-style: none;
+  padding: 0;
+  margin-top: 15px;
 }
-.social-networks i {
-  font-size: 1.1rem;
-  color: #2f2f2f;
+
+.social-networks li {
+  margin-bottom: 10px;
+}
+
+.social-networks a {
+  font-size: 1.5rem;
+  color: #a0527f;
+  transition: color 0.3s ease;
+}
+
+.social-networks a:hover {
+  color: #d17ca3;
+}
+
+/* Opening Hours */
+.footer-hours {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-hours h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.footer-hours ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Bottom Text */
+.footer-text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #6b4c4c;
 }
 
 /* Gallery pages */
@@ -589,27 +627,23 @@ label {
     height: fit-content;
   }
   /* Footer */
-  .footer-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
   .footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    text-align: center;
   }
-  .footer-section li {
-    display: inline-block;
-    padding: 15px;
+  .footer-address,
+  .footer-hours {
+    width: 100%;
   }
-  .footer-section p,
-  .footer-section .logo,
-  .footer-section a {
-    display: inline-block;
-    vertical-align: middle;
+  .social-networks ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .social-networks li {
+    margin-bottom: 0;
   }
 
   /* Gallery page */
