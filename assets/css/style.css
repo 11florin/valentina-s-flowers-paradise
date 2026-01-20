@@ -234,6 +234,25 @@ main {
   justify-content: center;
   align-items: center;
 }
+.footer-address h3,
+.footer-address address,
+.footer-address p {
+  font-family: "Emilys Candy", sans-serif;
+  font-size: 1.1rem;
+}
+.footer-address h3 {
+  font-size: 1.4rem;
+}
+
+
+.footer-text p {
+  font-family: "Emilys Candy", sans-serif;
+  font-size: 1.1rem;
+}
+.footer-section h2 {
+  text-align: center;
+  margin-top: 20px;
+}
 .footer a {
   text-decoration: none;
   font-size: 1.1rem;
