@@ -569,6 +569,40 @@ label {
   pointer-events: none;
 }
 
+/* Success page */
+.container-success {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.success h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 3rem;
+}
+.success p {
+  font-family: "Emilys Candy", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.success button {
+  background-color: yellowgreen;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 10px 20px;
+  box-shadow: 5px 5px 10px rgb(114, 110, 110);
+}
+.btn-success {
+  text-decoration: none;
+  color: rgb(20, 17, 17);
+  font-family: "Emilys Candy", sans-serif;
+}
+.btn-success:hover {
+  background-color: rgba(124, 124, 124, 0.5);
+  box-shadow: inset 3px 3px 10px;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   /* hero section */
