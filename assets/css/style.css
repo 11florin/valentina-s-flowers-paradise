@@ -413,7 +413,7 @@ main {
   font-family: "Emilys Candy", sans-serif;
   font-size: 1.1rem;
 }
-
+/* Call to action section */
 .cta-section {
   text-align: center;
   padding: 3rem 1rem;
@@ -422,6 +422,7 @@ main {
   margin-bottom: 1.5rem;
 }
 .cta-button {
+  font-family: "Emilys Candy", sans-serif;
   display: inline-block;
   padding: 0.8rem 2rem;
   background-color: #fce7b2; /* pastel soft */
@@ -440,6 +441,29 @@ main {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Contact page */
+.contact-main {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/roses.jpg") no-repeat center/cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-weight: 600;
+}
 /* Media Queries */
 @media screen and (min-width: 768px) {
   /* hero section */
