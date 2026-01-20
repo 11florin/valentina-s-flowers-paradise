@@ -214,17 +214,21 @@ main {
 }
 .contact-us a {
   text-decoration: none;
-}
-.contact-us button {
   background-color: rgb(245, 242, 92);
+  color: #5f5f5a;
   display: block;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
   list-style: none;
+  font-family: "Emilys Candy", sans-serif;
+  font-size: 1.2rem;
+  box-shadow: 3px 3px 15px;
 }
-.contact-us button:hover {
+
+.contact-us a:hover {
   background-color: #f3ecec;
+  box-shadow: inset 3px 3px 10px;
 }
 
 /* footer */
@@ -764,7 +768,7 @@ label {
   }
   .btn-success {
     display: inline-block;
-    margin: 0 auto
+    margin: 0 auto;
   }
 }
 /* Media query 1024px */
