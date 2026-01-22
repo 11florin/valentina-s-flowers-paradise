@@ -88,7 +88,7 @@ Provides links to Home, Gallery, About, and Contact.
 
 ### Gallery Page
 * Categorised image sections (e.g., bouquets, roses, seasonal, gifts)
-* Responsive grid layout for images
+* Responsive layout for images
 * Consistent spacing and alignment for a clean visual experience.
 
 ### About Page
