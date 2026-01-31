@@ -533,13 +533,18 @@ main {
 }
 .contact-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(175, 170, 170, 0.2);
   padding: 40px;
   gap: 20px;
   position: relative;
+}
+.contact-container h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 3rem;
 }
 label {
   display: block;
@@ -772,8 +777,10 @@ label {
 
   /* Contact page */
   .contact-container {
+    display: flex;
     flex-direction: column;
-    padding: 20px;
+    justify-content: center;
+    padding: 5rem 5rem 2rem 5rem;
   }
   /* success page */
   .success {
@@ -881,7 +888,7 @@ label {
   }
   /* Contact page */
   .contact-container {
-    padding: 70px;
+    padding: 3rem 5rem 2rem 5rem;
   }
 }
 /* Media query 1440px */
