@@ -10,7 +10,7 @@ The design focuses on clarity, gentle floral aesthetics, and ease of navigation 
 
 https://github.com/11florin/valentina-s-flowers-paradise.git
 
-## Project link
+### Project link
 
 https://11florin.github.io/valentina-s-flowers-paradise/
 
@@ -104,7 +104,7 @@ Provides links to Home, Gallery, About, and Contact.
 * Personal reference to Valentina and her love for flowers.
 * Reinforces the theme and emotional tone of the site.
 
-### ontact Page
+### Contact Page
 * Contact form with input fields for user details and message.
 * Simple, accessible layout suitable for all devices.
 * Submits to a success page for confirmation.
@@ -126,7 +126,6 @@ Provides links to Home, Gallery, About, and Contact.
 
 ### Layout and spacing
 * Generous padding and margins to keep sections visually separated and easy to scan.
-* Consistent use of Bootstrap grid and utility classes for alignment and responsiveness.
 
 
 ## 7. Accessibility
@@ -143,7 +142,7 @@ The website was tested on multiple devices and screen sizes, including mobile, t
 ### Manual Testing
 
 * All navigation links were clicked to ensure they lead to the correct pages.
-* The sticky navigation bar was checked on each page to confirm it remains visible while scrolling.
+* The fixed navigation bar was checked on each page to confirm it remains visible while scrolling.
 * The contact form was tested to ensure it redirects to the success page after submission.
 * Images were checked to confirm they resize correctly on different screen sizes.
 * The layout was reviewed on various viewport widths to ensure no overlapping or broken elements.
