@@ -487,6 +487,9 @@ main {
     inset 3px 3px 8px rgba(0, 0, 0, 0.3),
     inset -3px -3px 8px rgba(255, 255, 255, 0.7);
 }
+.our-story-text p {
+  word-spacing: 0.3rem;
+}
 .about-valentina-text p,
 .about-creator-text p {
   font-family: "Emilys Candy", sans-serif;
@@ -686,7 +689,7 @@ label {
   .our-story-img img {
     flex: 0 1 400px;
     max-width: 400px;
-    height: 300px;
+    height: 400px;
   }
   .scroll-box {
     height: fit-content;
@@ -880,6 +883,10 @@ label {
   }
   .scroll-box p {
     font-size: 1.5rem;
+  }
+  .our-story-text p {
+    font-size: 1.7rem;
+    line-height: 1.5rem;
   }
   /* about valentina - creator */
   .about-valentina-text p,

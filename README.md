@@ -6,6 +6,14 @@ Valentina’s Flowers Paradise is a simple, responsive static website inspired b
 The site consists of a homepage, a gallery, an about page, a contact page, and a success page displayed after form submission.
 The design focuses on clarity, gentle floral aesthetics, and ease of navigation across mobile, tablet, and desktop devices
 
+### Clone this repository
+
+https://github.com/11florin/valentina-s-flowers-paradise.git
+
+## Project link
+
+https://11florin.github.io/valentina-s-flowers-paradise/
+
 ## 2. Purpose of the Project
 
 The purpose of this project is to build a clean, user‑friendly static website using HTML5, CSS3, and Bootstrap 5.
