@@ -370,7 +370,7 @@ main {
   height: 300px;
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url("../images/about-section2.png") no-repeat center/cover;
+    url("../images/about-section2.png") no-repeat top/cover;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -731,6 +731,12 @@ label {
     height: 200px;
   }
   /* About page */
+  .hero-about {
+      background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/about-section2.png") no-repeat center/cover;
+
+  }
   .text-hero-about h1 {
     font-size: 3rem;
   }
