@@ -192,6 +192,18 @@ The website was deployed using GitHub Pages:
 * Bouquets, roses, seasonal flowers, and gifts (gallery images)
 * About section image (AI‑generated picture)
 
+### Wireframe
+
+1. [index mobile](assets/images/wireframe/index-mobile.jpg)
+2. [gallery mobile](assets/images/wireframe/gallery-mobile.jpg)
+3. [about mobile](assets/images/wireframe/about-mobile.jpg)
+4. [contact mobile](assets/images/wireframe/contact-mobile.jpg)
+5. [index talet](assets/images/wireframe/index-tablet.jpg)
+6. [index desktop](assets/images/wireframe/index-desktop.jpg)
+7. [gallery desktop](assets/images/wireframe/gallery-desktop.jpg)
+8. [about desktop](assets/images/wireframe/gallery-desktop.jpg)
+9. [contact desktop](assets/images/wireframe/contact-desktop.jpg)
+
 ### Inspiration
 
 * Inspired by Valentina’s love for flowers.
