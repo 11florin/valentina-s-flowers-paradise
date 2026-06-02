@@ -79,7 +79,15 @@ The site showcases floral imagery, essential information, and a clear layout tha
 
 ---
 
-### 3.2 Verification Table
+## 3.2 Verification Table
+
+| User Story | Feature Implemented | Verified |
+|-----------|----------------------|----------|
+| Easy navigation | Navbar + links | OK |
+| Responsive layout | Bootstrap grid + CSS | OK |
+| Clear sections | Home/Gallery/About/Contact pages | OK |
+| Organised gallery | Categorised gallery | OK |
+| Fixed navbar | CSS fixed navbar | OK |
 
 
 
