@@ -41,6 +41,49 @@ The site showcases floral imagery, essential information, and a clear layout tha
 * No JavaScript features (except the Bootstrap navbar behaviour).
 * No backend, database, or interactive systems.
 
+## 3.1 User Stories - Acceptance Criteria
+
+### User Story 1 - Easy Navigation
+
+**Acceptance Criteria:**
+
+* Navbar visible on all pages
+* Links lead to correct pages
+* Hamburger menu works on mobile
+* Active page highlighted
+
+### User Story 2 - Responsive Layout
+**Acceptance Criteria:**
+* Layout adapts to mobile, tablet, desktop
+* No horizontal scrolling
+* Images resize correctly
+* Text remains readable
+
+### User Story 3 - Clear Sections
+**Acceptance Criteria:**
+* Each page has a clear heading
+* Navigation matches page names
+* Sections visually separated
+
+### User Story 4 - Organised Gallery
+**Acceptance Criteria:**
+* Images grouped by category
+* Consistent spacing
+* Maintains aspect ratio
+
+### User Story 5 - Fixed Navbar
+**Acceptance Criteria:**
+* Navbar stays visible while scrolling
+* No overlap with content
+* Works on all devices
+
+---
+
+### 3.2 Verification Table
+
+
+
+
 ## 3. Features
 
 ### Responsive navigation bar
@@ -150,7 +193,21 @@ The website was tested on multiple devices and screen sizes, including mobile, t
 ## Validation
 
 * HTML was validated using the W3C HTML Validator.
-* CSS was validated using the W3C CSS Validator.
+**Screenshots are included below:**
+[About page top](assets/images/img-validation/about-top.png)  
+[About page bottom](assets/images/img-validation/about-bottom.png)  
+[Contact page top](assets/images/img-validation/contact-top.png)  
+[Contact page bottom](assets/images/img-validation/contact-bottom.png)  
+[Gallery page top](assets/images/img-validation/gallery-top.png)  
+[Gallery page bottom](assets/images/img-validation/gallery-bottom.png)  
+[Index page top](assets/images/img-validation/index-top.png)  
+[Index page bottom](assets/images/img-validation/index-bottom.png)  
+[Success page top](assets/images/img-validation/success-top.png)  
+[Success page bottom](assets/images/img-validation/success-bottom.png)  
+
+* CSS was validated using the W3C CSS Validator.  
+[CSS top](assets/images/img-validation/css-top.png)  
+[CSS bottom](assets/images/img-validation/css-bottom.png)  
 
 ## 8. Deployment
 
@@ -201,7 +258,7 @@ The website was deployed using GitHub Pages:
 5. [index talet](assets/images/wireframe/index-tablet.jpg)
 6. [index desktop](assets/images/wireframe/index-desktop.jpg)
 7. [gallery desktop](assets/images/wireframe/gallery-desktop.jpg)
-8. [about desktop](assets/images/wireframe/gallery-desktop.jpg)
+8. [about desktop](assets/images/wireframe/about-desktop.jpg)
 9. [contact desktop](assets/images/wireframe/contact-desktop.jpg)
 
 ### Inspiration
