@@ -229,6 +229,28 @@ Provides links to Home, Gallery, About, and Contact.
 * Clear navigation with consistent menu items across all pages.
 * Descriptive text and headings to help users understand the content quickly.
 
+## Bugs & Fixes
+
+### Fixed Bugs
+
+| Bug | Cause | Fix |
+|-----|--------|------|
+| Navbar overlapped hero text on mobile | Fixed navbar + large hero padding | Added extra top margin in hero section |
+| One homepage image had empty alt text | Missing attribute during initial build | Added descriptive alt text |
+| Gallery images appeared stretched | Fixed height (200px) distorted some images | Added object-fit: cover to maintain proportions |
+| Card shadows looked inconsistent | Different shadow values across breakpoints | Standardised box-shadow values |
+| Contact form inputs looked misaligned | Default browser styles interfering | Added consistent padding + border-radius |
+
+### Known Bugs
+
+| Bug | Status | Notes |
+|------|---------|--------|
+| Slight delay on hero image load | Minor | Caused by large background image |
+| Lighthouse performance score lower in Chrome | Not a code issue | Extensions affect performance |
+
+No other known bugs at this time.
+
+
 ## Testing
 
 The website was tested on multiple devices and screen sizes, including mobile, tablet, and desktop
