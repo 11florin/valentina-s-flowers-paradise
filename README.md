@@ -163,6 +163,49 @@ Provides links to Home, Gallery, About, and Contact.
 * Soft, floral tones to reflect the theme of flowers and warmth.
 * Darker text colours used where necessary to maintain readability and contrast.
 
+## 6.1 Colour Palette (HEX Codes)
+
+| Colour Name | Value | Usage |
+|-------------|--------|--------|
+| Light Cream | #faf8cd | Body background |
+| Lemon Gradient 1 | #e4fa72 | Navbar & footer gradient |
+| Lemon Gradient 2 | #fffb05 | Navbar & footer gradient, borders |
+| Gold Gradient | #fcc621 | Navbar & footer gradient, borders |
+| Dark Grey | #2f2f2f | Navbar text, shadows |
+| White | #ffffff | Hover backgrounds, cards |
+| Hero Text White | #fff | Hero title |
+| Hero Text Light | #f8f8f8 | Hero subtitle |
+| Card Border Yellow | #fffb05 | Card border |
+| Card Shadow Yellow | #e7eb31 | Card shadow |
+| About Background | hsl(56, 70%, 82%) | About text box |
+| Contact Button BG | hsl(66, 100%, 85%) | Contact button background |
+| Contact Button Shadow | yellow | Contact button shadow |
+| Contact Link BG | rgb(245, 242, 92) | Contact link background |
+| Contact Link Text | #5f5f5a | Contact link text |
+| Social Icon Default | #a0527f | Social icons |
+| Social Icon Hover | #d17ca3 | Social icons hover |
+| Footer Text | #4b2e2e | Footer text |
+| Footer Small Text | #6b4c4c | Footer small text |
+| Gallery Card BG | white | Gallery card background |
+| Add-to-cart Button | #999696 | Button background |
+| Add-to-cart Border | rgb(54, 52, 52) | Button border |
+| Add-to-cart Hover BG | #e4fa72 | Button hover |
+| Add-to-cart Hover Shadow | yellowgreen | Button hover shadow |
+| Scroll-box BG | #fffbe6 | About scroll box |
+| Scroll-box Border | #fcc621 | Scroll box border |
+| Scroll-box Text | #4b3f2f | Scroll box text |
+| CTA Button BG | #fce7b2 | CTA button |
+| CTA Button Border | #f5d48a | CTA border |
+| CTA Button Hover BG | #f5d48a | CTA hover |
+| CTA Button Text | #7a5c3a | CTA text |
+| Contact Form BG | rgba(175, 170, 170, 0.2) | Contact form container |
+| Contact Button BG | rgba(175, 170, 170, 0.5) | Contact button |
+| Contact Focus Shadow | rgba(255, 192, 203, 0.7) | Input focus |
+| Success Button BG | rgb(240, 234, 152) | Success page button |
+| Success Button Hover | rgb(255, 251, 0) | Success button hover |
+| Success Button Shadow | rgb(255, 251, 3) | Success button shadow |
+
+
 ### Typography
 * Clean, readable fonts chosen for both headings and body text.
 * Larger headings to create clear hierarchy and structure.
