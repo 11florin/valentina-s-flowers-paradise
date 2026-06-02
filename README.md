@@ -256,6 +256,14 @@ The website was tested on multiple devices and screen sizes, including mobile, t
 [Success page top](assets/images/img-validation/success-top.png)  
 [Success page bottom](assets/images/img-validation/success-bottom.png)  
 
+* Lighthouse Validation  
+**Screenshots are included below:**  
+[About](assets/images/img-lighthouse/about-lighthouse.png)  
+[Contact](assets/images/img-lighthouse/contact-lighthouse.png)  
+[Gallery](assets/images/img-lighthouse/gallery-lighthouse.png)  
+[Index](assets/images/img-lighthouse/index-lighthouse.png)  
+[Success](assets/images/img-lighthouse/success-lighthouse.png)  
+
 * CSS was validated using the W3C CSS Validator.  
 [CSS top](assets/images/img-validation/css-top.png)  
 [CSS bottom](assets/images/img-validation/css-bottom.png)  
